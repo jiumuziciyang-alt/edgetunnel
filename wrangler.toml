@@ -2,8 +2,8 @@ name = "cftunnel"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
-"kv_namespaces": [{
-                    "binding": "KV",
-                    "id": "061b4dd16c2c4bb38f6e951e36ab9ff3"
-                 }]
+[[kv_namespaces]]
+binding = "KV"
+id = "061b4dd16c2c4bb38f6e951e36ab9ff3"
+
 

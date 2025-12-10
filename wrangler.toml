@@ -3,6 +3,7 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"			#KV绑定名默认不可修改
+
+id = "061b4dd16c2c4bb38f6e951e36ab9ff3"				#KV数据库id
